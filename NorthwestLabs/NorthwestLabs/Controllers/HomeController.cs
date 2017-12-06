@@ -13,9 +13,8 @@ namespace NorthwestLabs.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Pricing()
         {
-            ViewBag.Message = "Your application description page.";
 
             return View();
         }
@@ -26,5 +25,12 @@ namespace NorthwestLabs.Controllers
 
             return View();
         }
+
+        public ActionResult Register()
+        {
+            return View();
+        }
+
+        
     }
 }
