@@ -31,6 +31,11 @@ namespace NorthwestLabs.Controllers
             return View();
         }
 
-        
+        public ActionResult Order()
+        {
+            return View();
+        }
+
+
     }
 }
